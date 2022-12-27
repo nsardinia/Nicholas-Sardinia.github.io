@@ -15,7 +15,7 @@
 
     <title>Keith Khadar</title>
 </head>
-<body class="text-light" style="background-color:#040b14">
+<body class="text-light" style="background-color:#040b14" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
     <!-- Nav Icon for smaller screens --> 
     <i class="bi-list mobile-nav-toggle d-xl-none"></i>
     
@@ -35,11 +35,11 @@
 
         <nav id="navbar" class="nav-menu navbar">
             <ul>
-            <li><a href="#hero" class="nav-link scrollto active"><i class="bi-house"></i> <span>Home</span></a></li>
-            <li><a href="#about" class="nav-link scrollto"><i class="bi-person"></i> <span>About</span></a></li>
-            <li><a href="#resume" class="nav-link scrollto"><i class="bi-file-text"></i> <span>Resume</span></a></li>
-            <li><a href="#portfolio" class="nav-link scrollto"><i class="bi-book"></i> <span>Portfolio</span></a></li>
-            <li><a href="#contact" class="nav-link scrollto"><i class="bi-phone"></i> <span>Contact</span></a></li>
+            <li><a href="#hero" class="nav-link"><i class="bi-house"></i> <span>Home</span></a></li>
+            <li><a href="#about" class="nav-link"><i class="bi-person"></i> <span>About</span></a></li>
+            <li><a href="#resume" class="nav-link"><i class="bi-file-text"></i> <span>Resume</span></a></li>
+            <li><a href="#portfolio" class="nav-link"><i class="bi-book"></i> <span>Portfolio</span></a></li>
+            <li><a href="#contact" class="nav-link"><i class="bi-phone"></i> <span>Contact</span></a></li>
             </ul>
         </nav><!-- .nav-menu -->
         </div>
@@ -113,75 +113,95 @@
             <h2>Skills</h2>
             <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
           </div>
-          <div class="row container-fluid text-center">
-  
-            <div class="col-lg-6" data-aos="fade-up">
+          <div class="row text-center">
+            <div class="col-sm-3 text-center mb-3" data-aos="fade-up">
                 <i class="fa-brands fa-html5"> HTML</i>
-                <i class="fa-brands fa-css3-alt"> CSS</i>
-                <i class="fa-brands fa-square-js"> JS</i>
             </div>
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                <span class="bi-award">C++</span>
-                <span class="bi-award">Java</span>
-                <span class="bi-award">ARM Assembly</span>
+            <div class="col-sm-3 text-center mb-3" data-aos="fade-up" data-aos-delay="100">
+                <b>C++</b>
             </div>
-            <div class="col-lg-6" data-aos="fade-up">
+            <div class="col-sm-3 text-center mb-3" data-aos="fade-up">
                 <i class="fa-brands fa-python"> Python</i>
-                <span class="bi-award-fill">C#</span>
+            </div>
+            <div class="col-sm-3 text-center mb-3" data-aos="fade-up" data-aos-delay="100">
+                <i class="fa-solid fa-cube"> SolidWorks</i>
+            </div>
+            <div class="col-sm-3 text-center mb-3" data-aos="fade-up">
+                <i class="fa-brands fa-css3-alt"> CSS</i>
+            </div>
+            <div class="col-sm-3 text-center mb-3" data-aos="fade-up" data-aos-delay="100">
+                <i class="fa-brands fa-java"> Java</i>
+            </div>
+            <div class="col-sm-3 text-center mb-3" data-aos="fade-up">
+                <b>C#</b>
+            </div>
+            <div class="col-sm-3 text-center mb-3" data-aos="fade-up" data-aos-delay="100">
+                <i class="fa-solid fa-cube"> AutoCAD</i>
+            </div>
+            <div class="col-sm-3 text-center mb-3" data-aos="fade-up">
+                <i class="fa-brands fa-square-js"> Javascript</i>
+            </div>
+            <div class="col-sm-3 text-center mb-3" data-aos="fade-up" data-aos-delay="100">
+                <b>ARM Assembly</b>
+            </div>
+            <div class="col-sm-3 text-center mb-3" data-aos="fade-up">
                 <i class="fa-brands fa-unity"> Unity</i>
             </div>
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                <span class="bi-award">SolidWorks</span>
-                <span class="bi-award">AutoCAD</span>
-                <span class="bi-award">Blender</span>
+            <div class="col-sm-3 text-center mb-3" data-aos="fade-up" data-aos-delay="100">
+                <i class="fa-solid fa-cube"> Blender</i>
             </div>
-  
-          </div>
-  
         </div>
       </section><!-- End Skills Section -->
 
-    <div class="mb-5 mt-5">
-        
-    </div>
-
-    <div class="mb-5">
-    <h2 class="text-center"> <i> Skills </i> </h2>
-    <table class="table table-dark">
-        <tr>
-            <th> Technologies </th>
-            <td>C++</td>
-            <td>Java</td>
-            <td>Python</td>
-            <td>HTML</td>
-        </tr>
-        <tr>
-            <th> Soft Skills </th>
-            <td>Problem Solving</td>
-            <td>Team Work</td>
-            <td>Leadership</td>
-            <td>Flexibility</td>
-        </tr>
-    </table>
-    </div>
-
-    <div class="p-0">
-        <h2 class="text-center"> <i> Write me a message </i> </h2>
-        <div class="mb-3 mt-3">
-            <label for="name" class="form-label"> Name: </label>
-            <input type="name" class="form-control text-bg-dark" id="name" placeholder="Name" name="name" required/>
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <div class="section-title">
+                <h2>Resume</h2>
+            </div>
+            <div class="ratio ratio-1x1">
+                <iframe src="https://drive.google.com/file/d/11IP7mJzLUpPEn9gKC-3qfM7UBKsEjhin/preview?usp=sharing"></iframe>
+            </div>
         </div>
-        <div class="mb-3">
-            <label for="email" class="form-label"> Email: </label>
-            <input type="email" class="form-control text-bg-dark" id="email" placeholder="Email" name="email" required/>
-        </div class="mb-0">
-            <label for="message" class="form-label"> Message: </label>
-            <textarea class="form-control text-bg-dark" rows="5" id="message" name="text" required> </textarea>     
+    </section><!-- End Resume Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact</h2>
+            </div>
+            <form id="Contact Me">
+            <div class="px-5">
+                <div class="row">
+                    <div class="form-group col-md-6">
+                    <label for="name">Your Name</label>
+                    <input type="text" name="name" class="form-control text-bg-dark" id="name" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                    <label for="name">Your Email</label>
+                    <input type="email" class="form-control text-bg-dark" name="email" id="email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="name">Subject</label>
+                    <input type="text" class="form-control text-bg-dark" name="subject" id="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="name">Message</label>
+                    <textarea class="form-control text-bg-dark" name="message" rows="10" required></textarea>
+                </div>
+                <div class="text-center d-grid"><button type="submit" id="submit" class="btn btn-dark">Send Message</button></div>
+                </form>
+            </div>
         </div>
-        <div class="d-grid mb-5 mt-0">
-            <button type="submit" class="btn btn-primary">Send</button>  
-        </div>
-    </div>
+    </section>
   </main>
+<script src="https://static.formx.stream/tracker/v1/bundle.js"></script>
+<script>
+    var formx = FormX.set()
+    formx.trackProject('Portfolio Website_93dcf8a9-d0e0-4484-951c-85ac1e4c93e2')
+    formx.trackForm('Contact Me_0b05cd0c-e264-4060-b7b3-4b249ac988f7', 'Contact Me')
+    formx.start()
+</script>
+<script src="./main.js"></script>
 </body>
 </html>
